@@ -1,6 +1,8 @@
 
 <?php
 session_start();
+
+
  ?>
 <!DOCTYPE html>
 <html>
@@ -20,6 +22,7 @@ session_start();
           <td>Age:</td>
           <td><input type="number" name="age" value="" required/></td>
       </tr>
+
       <tr>
         <td>Gender:</td>
         <td><input type="radio" name="gender" value="Male" />Male</td>
@@ -33,12 +36,13 @@ session_start();
 
       <tr>
         <td>Country:</td>
-        <td><select name="country" size="4" required>
-        <option>Malaysia</option>
-        <option>Myanmar</option>
-        <option>Sinagpore</option>
-      </td>
-      </select>
+        <td>
+          <select name="country" size="4" required>
+            <option>Malaysia</option>
+            <option>Myanmar</option>
+            <option>Sinagpore</option>
+          </select>
+        </td>
       </tr>
 
       <tr>
@@ -54,7 +58,7 @@ session_start();
         <td><input type="reset" name="clear" value="clear"></td>
       </tr>
 
-  </table>
+    </table>
     </form>
   </body>
 </html>
