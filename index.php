@@ -1,20 +1,6 @@
 
 <?php
 session_start();
-
-// $name=$_POST['name'];
-// $age=$_POST['age'];
-// $address=$_POST['address'];
-// $email=$_POST['email'];
-// $country=$_POST['country'];
-
-  // $_SESSION['name']=$_POST['name'];
-  // $_SESSION['age']=$_POST['age'];
-  // $_SESSION['address']=$_POST['address'];
-  // $_SESSION['email'] =$_POST['email'];
-  // $_SESSION['country']=$_POST['country'];
-
-
  ?>
 <!DOCTYPE html>
 <html>
